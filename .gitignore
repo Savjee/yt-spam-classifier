@@ -1,0 +1,6 @@
+*.h5
+.env
+.ipynb_checkpoints
+helpers/offline_credentials
+helper/client_secret.json
+helpers/client_secret.json
