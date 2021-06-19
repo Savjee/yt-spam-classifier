@@ -32,9 +32,10 @@ class Comment():
 
 class CommentHelper():
     def __init__(self):
-        self.yt = googleapiclient.discovery.build(
-            "youtube", "v3", developerKey = API_KEY
-        )
+        #self.yt = googleapiclient.discovery.build(
+        #    "youtube", "v3", developerKey = API_KEY
+        #)
+        self.authenticate()
 
     def authenticate(self):
         if os.path.isfile(CREDENTIAL_FILE):
