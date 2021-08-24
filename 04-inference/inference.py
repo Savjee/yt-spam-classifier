@@ -72,9 +72,6 @@ while loop:
         ], allComs))
     )
 
-    # Reset list before we continue
-    allComs = []
-
     # report them in 1 go
     if len(spam) > 0:
         print("Have %d comments, reporting as spam" % (len(spam)))
