@@ -73,7 +73,7 @@ while loop:
     )
 
     # Reset list before we continue
-    allComms = []
+    allComs = []
 
     # report them in 1 go
     if len(spam) > 0:
